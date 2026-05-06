@@ -61,7 +61,7 @@ if (bookingForm) {
         const service = document.getElementById('form-service').value;
         const message = document.getElementById('form-message').value;
         
-        const whatsappNumber = "919876543210"; // Replace with actual business number
+        const whatsappNumber = "916006067445"; // Replace with actual business number
         const text = `*New Booking Request*%0A%0A*Name:* ${name}%0A*Phone:* ${phone}%0A*Service:* ${service}%0A*Message:* ${message}`;
         
         const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${text}`;
